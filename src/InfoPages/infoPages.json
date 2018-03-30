@@ -1,0 +1,532 @@
+{
+    "Hayvanlar": {
+        "title": "HAYVAN ISIRMALARI VE SOKMALARI",
+        "Cards": [
+            {
+                "title": "Arı Sokmaları",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "-Deri üzerinde görülüyorsa arının iğnesi çıkartılır.",
+                        "-Sokulan vücut bölgesi soğuk su ile yıkanır.",
+                        "-Sokulan bölgeye soğuk uygulama yapılır. ",
+                        "-Eğer sokma ağızdan olmuş ve solunum güçlüğü söz konusu ise tıbbi yarıma ulaşıncaya kadar hasta ya da yaralının buz emmesi ya da soğuk su içmesi sağlanır. ",
+                        "-Alerji durumu olanlarda derhal tıbbi yarım istenir. "
+                    ]
+                }]
+            },
+            {
+                "title": "Akrep Sokmaları",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- Hasta ya da yaralı yatar pozisyonda tutulur ve sakinleştirilmeye çalışılır. ",
+                        "- Hasta ya da yaralının yaşam bulguları değerlendirilir. ",
+                        "- Zorunlu olmadıkça hasta ya da yaralı (özellikle sokma bölgesi) ya da sokulan organ hareket ettirilmez. ",
+                        "- Yaraya soğuk uygulama yapılır. ",
+                        "- Yara üzerinde hiçbir girişimde (kesme, çizme, kan emme vs.) bulunulmaz. ",
+                        "- Sokulan yerin üst tarafına dolaşımı engellemeyecek şekilde elastik bandaj uygulanır. (Kesinlikle turnike uygulanmaz). ",
+                        "- Tıbbi yardım istenir (112). "
+                    ]
+                }]
+            },
+            {
+                "title": "Yılan Sokmaları",
+                "image": "",
+                "content": [{
+                    "small_title": "",
+                    "text": [
+                        "-Hasta ya da yaralının yaşam bulguları değerlendirilir.  ",
+                        "-Hasta/Yaralı sakinleştirilir ve kendisi için rahat bir pozisyonda hareketsiz olması sağlanır.",
+                        "-Yaraya yakın bölgede baskı yapabilecek eşyalar (takı, aksesuar vs.) çıkartılır.",
+                        "-Isırık kol ve bacaklarda ise zehrin vücuda girdiği yerin üzerine bandaj uygulanır. Eğer ısırık yüz ya da boyun bölgesinde ise yaranın yan taraflarına dolaşımı engellemeyecek şekilde bastırılır. ",
+                        "-Yara su ve sabunla temizlenir.",
+                        "-Eğer mümkünse sokulan bölgeye soğuk uygulama yapılır.",
+                        "-Hasta ya da yaralı mümkün olduğunca kımıldatılmadan bir sağlık kuruluşuna götürülür. "
+                    ]
+                }]
+            },
+            {
+                "title": "Deniz Canlılarının Sokmaları",
+                "image": "",
+                "content": [{
+                    "small_title": "",
+                    "text": [
+                        "-Sokulan bölgede diken ya da iğne varsa çıkartılır. ",
+                        "-Sokulan bölgeye sıcak suyla ıslatılmış bez uygulanır. ",
+                        "-Etkilenen organın ya da vücut bölgesinin 15 dakika kadar sıcak su dolu bir kaba sokulması ya da bölgeye sıcak su ile ıslatılmış bezle baskı uygulanması ağrının azalmasına yardımcı olacaktır.",
+                        "-Hasta ya da yaralı bir sağlık kuruluşuna götürülür. "
+                    ]
+                }]
+            },
+            {
+                "title": "Kedi ve Köpek Isırmaları",
+                "image": "",
+                "content": [{
+                    "small_title": "",
+                    "text": [
+                        "-Hasta ya da yaralının yaşam bulguları değerlendirilir.",
+                        "-Hafif yaralanmalarda yara 5 dakika süreyle sabun ve soğuk suyla yıkanır.",
+                        "-Yaranın üstü temiz bir bez ile kapatılır. ",
+                        "-Ciddi yaralanma ve kanama varsa yaraya temiz bir bezle basınç uygulanarak kanama durdurulur ve derhal tıbbi yardım istenir. ",
+                        "-Hasta ya da yaralı tetanoz aşısı için uyarılır."
+                    ]
+                }]
+            }
+        ]
+    },
+    "KafaOmurga": {
+        "title": "KAFATASI ve OMURGA YARALANMALARI",
+        "Cards": [
+            {
+                "title": "Kafatası ve Omurga Yaralanmaları",
+                "image": "",
+                "content":[ {
+                    "small_title": "Sebepleri",
+                    "text": [
+                        "-Otomobil ya da motosiklet kazaları",
+                        "-Yüksek bir yerden düşme",
+                        "-Spor ve iş kazaları",
+                        "-Baş ve gövde yaralanmaları",
+                        "-Yıkıntı altında kalma"
+                            ]
+                            },
+                            {
+                    "small_title": "Belirtileri",
+                    "text": [
+                        "- Bilinç düzeyinde değişmeler, bulanık hafıza ya da hafıza kaybı",
+                        "- Sarsıntı ve denge kaybı",
+                        "- Başta, boyunda ve sırtta ağrı ya da dış kanama ",
+                        "- Elde ve parmaklarda karıncalanma ve his kaybı ",
+                        "- Vücudun herhangi bir yerinde tam ya da kısmi hareket kaybı",
+                        "- Baş ya da bel kemiğinde şekil bozukluğu",
+                        "- Burun ve kulaktan beyin omurilik sıvısı veya kan gelmesi ",
+                        "- Kulak ve göz çevresinde morluk ",
+                        "- Düzensiz nefes, bulanık görüş",
+                        "- Kusma"
+                            ]
+                            },
+                            {
+                            "small_title": "Ancak hastada hiçbir belirti yoksa bile",
+                            "text": [
+                                "- Yüz ve köprücük kemiği yaralanmalarında",
+                                "- Tüm düşme vakalarında",
+                                "- Trafik kazalarında ",
+                                "- Bilinci kapalı tüm hasta / yaralılara kafatası omurga yaralanması var gibi müdahale edilmelidir."
+                                    ]
+                                    }
+                        ]
+            },
+            {
+                "title": "Beyin Travması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                        " Göz altı ve kulak arkası morluğu  ",
+                            " Ruhsal dalgalanma ",
+                            " Baş dönmesi ve ağrısı  ",
+                            " Hafıza problemleri ",
+                            " Konuşmada bozukluk  ",
+                            "Denge kaybı ",
+                            " ** Belirtiler darbeden birkaç saat sonra da gözlemlenebileceği için hasta/yaralı gözlem altında tutulmalıdır.  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- İkincil değerlendirme (bulduğun pozisyonda yap)",
+                            "112",
+                             "- Hareket ettirme!  ",
+                             "- Kusmaya karşı hazırlıklı ol  ",
+                             "- Bilinci yerindeyse hasta telkin edilmeli ve uyutulmamalıdır ",
+                             "- Bilincin gitmesine karşı önlem olarak h/y bilgileri alınmalıdır.  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Kafatası Yaralanması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                         "- Baş ağrısı, baş dönmesi  ",
+                             "- Ezik, çürük, şişlik ve kesikler  ",
+                             "- Bulanık görme  ",
+                             "- Kulak çınlaması  ",
+                             "- Gürültü ve ışığa karşı duyarlılık  ",
+                             "- Denge problemleri  ",
+                             "- Mide bulantısı  ",
+                             "- Yorgunluk, uyuşukluk  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- İkincil değerlendirme (bulduğun pozisyonda yap) ",
+                         "- 112  ",
+                         "- Kanama varsa bası yapılır ",
+                         "- Hareket ettirme!  ",
+                         "- Telkin  ",
+                         "- Devamlı bilinç kontrol (ABC kontrol)  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Çene ve Yüz Kemiği Yaralanmaları",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                         "- Şekil bozukluğu  ",
+                         "- Duyu organlarının zarar görmesi   ",
+                         "- Solunum zorluğu  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- Acı ve şişlik için soğuk uygulama yapılır ",
+                             "- Kanama varsa temiz bir bezle bası yapılır  ",
+                             "- Telkin et ve yüze dokunmasını engelle  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Burun Kanaması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Sebepleri",
+                    "text": [
+                         "- Basınç  ",
+                             "- Sıcaklık   ",
+                             "- Cisim Batması  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- Yaralının başı öne doğru eğilir ",
+                             "- Burun kemiği bitişinde burun kanatlarından 5 dakika süreyle sıkılır  ",
+                             "- Kan akışı sağlanır.   ",
+                             "- Gerekirse soğuk uygulama yapılabilir (bezle birlikte) "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Kulak Kanaması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Sebepleri",
+                    "text": [
+                         "- Darbe  ",
+                             "- Beyinde Hasar   ",
+                             "- Hastalık  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- Kanayan kulağın üzerine bastırmadan temiz bir kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla.  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Omurga Yaralanması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtiler",
+                    "text": [
+                         "- Sırtta ağrı  ",
+                             "- Hareket zorluğu  ",
+                             "- Hissizlik  ",
+                             "- Omurgada şekil bozukluğu  ",
+                             "- İdrar kaçırma durumu  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                         "- Kaza mekanizması kontrol edilir, çevre güvenliği alınır.  ",
+                         "- İkincil değerlendirme (ellerini sıkamıyor, ayaklarını çekemiyorsa şüphelen) ",
+                         "- Acil durumlarda arabadan çıkartılması gerekiyorsa rentek manevrası ile)  ",
+                         "- Mümkün olduğunca hareket ettirme, varsa boyunluk tak  ",
+                         "- Hasta / yaralıyı yalnız bırakma ",
+                         "- Vücut ısısını dengede tutmaya çalış ve telkin et  "
+                            ]
+                            }
+                        ]
+            }
+            
+        ]
+    },
+    "Zehirlenmeler": {
+        "title": "ZEHİRLENMELER",
+        "Cards": [
+            {
+                "title": " ALO 114 -> Zehir Danışma Hattı",
+                "image": "",
+                "content":[]
+            },
+            {
+                "title": "Sindirim Yolu ile Zehirlenme",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                        "- Bulantı ",
+                            "- Kusma ",
+                            "- Karın ağrısı ",
+                            "- Şiddetli ishal "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Hasta ya da yaralının bilinci kontrol edilir ve yaşam bulguları değerlendirilir.  ",
+                        "- Hasta ya da yaralının bilinci yerinde ise ağzı su ile çalkalanır, eller zehirli madde ile temas etmişse su ile yıkanır.  ",
+                        "- Ağızdan herhangi bir şey verilmez ve kusturulmaya çalışılmaz (özellikle yakıcı madde zehirlenmelerinde asla kusturulmamalıdır).  ",
+                        "- Zehirleyici maddenin tespiti için veri toplanarak tıbbi yardım istenir.  ",
+                        "- Bilinç kaybı var ise koma pozisyonu verilir.  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Solunum Yolu ile Zehirlenmeler",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                        "- Solunum güçlüğü ",
+                        "- Baş ağrısı  ",
+                        "- Bulanık görme  ",
+                        "- Kulak çınlaması ",
+                        "- Morarma  ",
+                        "- Solunum Durması "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Öncelikle patlama ve yangınlara karşı olay yeri güvenlik önlemleri alınır.  ",
+                            "- Hasta ya da yaralı temiz havaya çıkartılır ya da cam ve kapılar açılarak ortam havalandırılır.   ",
+                            "- Hasta yaralının yaşam bulguları değerlendirilir. Gerekirse temel yaşam desteği sağlanır.  ",
+                            "- Tıbbi yardım istenir (112).  ",
+                            "- Hasta yaralının bilinci yerinde ise yarı oturur pozisyonda, bilinci kapalı ise koma pozisyonunda bekletilir.  "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Deri Yoluyla Zehirlenmeler",
+                "image": "",
+                "content":[ {
+                    "small_title": "Sebepleri",
+                    "text": [
+                        "- Zehirli maddenin vücut ile teması  ",
+                            "- Böcek sokmaları ",
+                            "- Zehirli hayvan ısırmaları ",
+                            "- İlaç enjeksiyonu  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Ellerin zehirle teması önlenir.  ",
+                        "- Hasta ya da yaralının yaşam bulguları değerlendirilir.  ",
+                        "- Zehir bulaşmış giysiler çıkartılır.   ",
+                        "- Deri sabun ve bol su ile yaklaşık 15-20 dakika yıkanır.  ",
+                        "- Tıbbi yardım istenir (112).  "
+                            ]
+                            }
+                        ]
+            }
+            
+        ]
+    },
+    "Yaniklar": {
+        "title": "YANIKLAR",
+        "Cards": [
+            {
+                "title": "1. Derece Yanıklar",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- Derinin sadece en üst tabakası zedelenir.",
+                            "- Kızarıklık, gerginlik ve ağrı görülür. ",
+                            "- Müdahale: En az 10 dakika soğuk suya tutun. Merhem de kullanılabilir. "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "2. Derece Yanıklar",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- Derinin üst ve değişen oranlarda alt kısmı da etkilenir. ",
+                            "- Kızarıklık, ağrı ve su toplaması görülür. ",
+                            "- Müdahale: Suya tut. Kuru, yapışmaz, temiz steril bir bezle sar. Merhem kullanma. Bülleri (su kabarcıkları) patlatma. "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "3. Derece Yanıklar",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- Deri altı dokulara hatta kemiğe kadar ulaşır. ",
+                            "- Deri kuru olur, renk değiştirir. ",
+                            "- Sinir uçları ve kan damarları zedelenir, his kaybı oluşur. "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Müdahale",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- ACİLEN SAĞLIK KURULUŞUNA GİTMELİ",
+                            "- - Steril bez ile kapat (yaranın hava ile teması kesilsin). ",
+                            "- - Hasta kendindeyse su içebilir.",
+                            "- - Şoka karşı önlem al. "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Kimyasal Yanıklar",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "- Toz halinde ise hemen bir bez ya da fırça yardımıyla maddeyi vücuttan uzaklaştır sonra yıka.  ",
+                            "- Sıvı halinde ise kıyafetleri çıkar ve basınçlı su ile yıka. ",
+                            "- Göz etkilendiyse acilen zarar gören göz aşağıda kalacak şekilde akan musluğun altında temizle."
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Elektrik Yanıkları",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                        "Elektrik yanıklarında mümkünse önce şalteri kapat. Akımı elektriği iletmeyecek bir madde ile kes, hastayı uzaklaştır. Hastayı gözlem altında tut. Bilinçsiz fakat soluk alıyorsa şok durumunu önle. Omurgayı kontrol et. Kırık olup olmadığını kontrol et."
+                            ]
+                            }
+                        ]
+            }
+            
+        ]
+    },
+    "SicakSoguk": {
+        "title": "Sıcak ve Soğuk Çarpması",
+        "Cards": [
+            {
+                "title": "Donma (Hipotermi)",
+                "image": "",
+                "content":[ {
+                    "small_title": "1. Derece Donma",
+                    "text": [
+                        "1. Derece Donma: Deride solukluk, soğukluk, uyuşukluk ve sonrasında kızarıklık oluşur. "
+                            ]
+                            },
+                            {
+                    "small_title": "2. Derece Donma",
+                    "text": [
+                        "Deride şişlik ve içi su dolu kabarcıklarla kendini gösterir. "
+                            ]
+                            },
+                            {
+                    "small_title": "3. Derece Donma",
+                    "text": [
+                        "Canlı ve sağlıklı deriden kesin hatlarla ayrılan siyah bölgenin görülmesiyle oluşur."
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Hasta ya da yaralı ılık bir ortama alınarak soğukla teması kesilir (aniden çok sıcak ortama sokulmamalıdır).  ",
+                            "- Hasta ya da yaralı sakinleştirilir ve hareket ettirilmez. ",
+                            "- Hasta ya da yaralıya kuru giysiler giydirilir, bilinci yerinde ise sıcak içecekler verilir. ",
+                            "- Vücutta oluşan içi su dolu kabarcıklar asla patlatılmaz. ",
+                            "- Donmuş el ve ayaklar bulunduğu şekilde kendi doğal pozisyonunda tutulur. ",
+                            "- El ve ayaklarda ısıtma işleminden sonra hala hissizlik varsa bezle bandaj yapılır ya da sarılır. ",
+                            "- Hasta ya da yaralının alkol almasına ve tütün kullanmasına asla izin verilmez. ",
+                            "- Zarar gören bölgeler kesinlikle buz ve soğuk suyla ovulmaz. ",
+                            "- Tıbbi yardım istenir (112). "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Sıcak Çarpması",
+                "image": "",
+                "content":[ {
+                    "small_title": "Belirtileri",
+                    "text": [
+                        "- Adale krampları",
+                            "- Güçsüzlük, yorgunluk ",
+                            "- Baş dönmesi, davranış bozukluğu ",
+                            "- Solgun ve sıcak deri ",
+                            "- Aşırı terleme (zamanla azalır) ",
+                            "- Mide krampları, bulantı, kusma ",
+                            "- Hızlı nabız ",
+                            "- Hayal görme, sayıklama "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Hasta serin ve havadar bir yere alınır. ",
+                        "- Terli giysiler çıkartılıp, kuru ince giysiler giydirilir. ",
+                        "- Sırt üstü yatırarak hasta ya da yaralının kol ve bacakları yükseltilir. ",
+                        "- Hasta ya da yaralının bilinci açık ve bulantısı yok ise karbonat tuz karışımı ya da soda içirilir ( 1 litre suya; 1 çay kaşığı karbonat, 1 çay kaşığı tuz karışımı) "
+                            ]
+                            }
+                        ]
+            },
+            {
+                "title": "Deri Yoluyla Zehirlenmeler",
+                "image": "",
+                "content":[ {
+                    "small_title": "Sebepleri",
+                    "text": [
+                        "- Zehirli maddenin vücut ile teması  ",
+                            "- Böcek sokmaları ",
+                            "- Zehirli hayvan ısırmaları ",
+                            "- İlaç enjeksiyonu  "
+                            ]
+                            },
+                            {
+                    "small_title": "Müdahale",
+                    "text": [
+                        "- Ellerin zehirle teması önlenir.  ",
+                        "- Hasta ya da yaralının yaşam bulguları değerlendirilir.  ",
+                        "- Zehir bulaşmış giysiler çıkartılır.   ",
+                        "- Deri sabun ve bol su ile yaklaşık 15-20 dakika yıkanır.  ",
+                        "- Tıbbi yardım istenir (112).  "
+                            ]
+                            }
+                        ]
+            }
+            
+        ]
+    }
+}

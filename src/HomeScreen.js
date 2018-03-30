@@ -18,16 +18,16 @@ class HomeScreen extends React.Component {
 
           const listNames = [
               {link: 'Hayvanlar', name: 'Hayvan Sokmaları ve Isırmaları' },
-              {link: 'KafaOmurga', name: 'Kafa ve Omurga Yaralanmaları' },
+              {link: 'KafaOmurga', name: 'Kafatası ve Omurga Yaralanmaları'},
               {link: 'Zehirlenmeler', name: 'Zehirlenmeler' },
               {link: 'Yaniklar', name: 'Yanıklar' },
-              {link: 'SicakSoguk', name: 'Sıcak ve Soğuk Çarpması' },
+              {link: 'SicakSoguk', name: 'Sıcak ve Soğuk Çarpması' } 
           ]
 
           return listNames.map((item)=>{
               return(
                 <CardSection key ={item.link}>
-                    <TouchableOpacity onPress={()=>navigate(item.link)}>
+                    <TouchableOpacity onPress={()=>navigate('InfoLayout', {name: item.link})}>
                         <Text style={styles.listEntry}>{item.name}</Text>
                     </TouchableOpacity>
                 </CardSection>

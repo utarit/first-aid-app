@@ -5,23 +5,14 @@ import { Asset, AppLoading } from 'expo';
 
 import HomeScreen from './src/HomeScreen'
 import AYB from './src/ayb/aybLayout'
+import InfoLayout from './src/InfoPages/infoPageLayout'
 
-import {
-  KafaOmurga,
-  Hayvanlar,
-  Zehirlenmeler,
-  Yaniklar,
-  SicakSoguk
-} from './src/InfoPages'
+
 
 const FirstAidApp = StackNavigator({
   Home: { screen: HomeScreen },
   AYB: { screen: AYB},
-  KafaOmurga: {screen: KafaOmurga},
-  Hayvanlar : {screen: Hayvanlar},
-  Zehirlenmeler: {screen: Zehirlenmeler},
-  Yaniklar: {screen: Yaniklar},
-  SicakSoguk: {screen: SicakSoguk}
+  InfoLayout: {screen: InfoLayout},
 });
 
 export default class App extends React.Component {
