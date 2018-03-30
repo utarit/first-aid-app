@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "firstaid-app",
+    "description": "The project that saves people.",
+    "slug": "firstaid-app",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mertakca.ocitfirstaid"
+    }
+  }
+}
