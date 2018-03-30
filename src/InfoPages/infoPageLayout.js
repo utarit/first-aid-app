@@ -22,10 +22,16 @@ class InfoLayout extends React.Component {
     }
 
     imageRender(imageUrl){
+        const images = {
+            yanik1: require("../../assets/infoPics/yanik1.png"),
+            yanik2: require("../../assets/infoPics/yanik2.png"),
+            yanik3: require("../../assets/infoPics/yanik3.png")
+        }
+
         if(imageUrl) {
             return (
                 <CardSection>
-                        <Image source={require("../../assets/icon.png")} />
+                        <Image style={styles.imageStyle} source={images[imageUrl]} />
                 </CardSection>
             )
         }
@@ -58,6 +64,7 @@ class InfoLayout extends React.Component {
                     <CardSection>
                         <Text style={styles.bigTitle}>{card.title}</Text>
                     </CardSection>
+                        {this.imageRender(card.image)}
                         {this.renderCardSection(card.content)}
                 </Card>
             )
@@ -92,6 +99,11 @@ const styles = {
     smallContainer: {
         paddingHorizontal: 5,
         paddingVertical: 5,
+    },
+    imageStyle: {
+        width: '100%',
+        height: 200,
+        resizeMode: 'contain'
     }
 }
 

@@ -357,7 +357,7 @@
         "Cards": [
             {
                 "title": "1. Derece Yanıklar",
-                "image": "",
+                "image": "yanik1",
                 "content":[ {
                     "small_title": "",
                     "text": [
@@ -370,7 +370,7 @@
             },
             {
                 "title": "2. Derece Yanıklar",
-                "image": "",
+                "image": "yanik2",
                 "content":[ {
                     "small_title": "",
                     "text": [
@@ -383,7 +383,7 @@
             },
             {
                 "title": "3. Derece Yanıklar",
-                "image": "",
+                "image": "yanik3",
                 "content":[ {
                     "small_title": "",
                     "text": [
