@@ -11,6 +11,33 @@ class AYB extends React.Component {
         
     }
 
+    constructor(props) {
+        super(props)
+
+        this.state={
+            gifs: {
+                "gif1": require("./gifs/guvenlik.gif"),
+                "gif2": require("./gifs/bilinc.gif"),
+                "gif3": require("./gifs/sikan_giysi.gif"),
+                "gif4": require("./gifs/agiz.gif"),
+                "gif5": require("./gifs/nefes_kontrol.gif"),
+                "gif6": require("./gifs/basi_noktasi.gif"),
+                "gif7": require("./gifs/5cm_asagi.gif"),
+                "gif8": require("./gifs/nefes.gif"),
+                "gif9": require("./gifs/cpr.gif"),
+                "gif10": require("./gifs/sample.gif"),
+                "gif11": require("./gifs/kafa.gif"),
+                "gif12": require("./gifs/gogus.gif"),
+                "gif13": require("./gifs/omurga.gif"),
+                "gif14": require("./gifs/karin.gif"),
+                "gif15": require("./gifs/bacak.gif"),
+                "gif16": require("./gifs/kol.gif"),
+                "gif17": require("./gifs/it_cek.gif"),
+                "gif18": require("./gifs/ambulans.gif")
+            }
+        }
+    }
+
     renderButton() {
         const {navigate} = this.props.navigation
         const {params} = this.props.navigation.state
@@ -52,7 +79,7 @@ class AYB extends React.Component {
         return (
             <View style={styles.pageContainer}>
                 <Card>
-                    <Image style={{height: 250, width: '100%'}} source={require(`./example.png`)} />
+                    <Image style={{height: 240, width: '100%'}} source={this.state.gifs["gif" + params.id]} />
                 </Card>
 
                 

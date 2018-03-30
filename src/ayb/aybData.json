@@ -1,7 +1,7 @@
 {
     "ayb1":{
         "no": 1,
-        "image": "example.gif",
+        "image": "guvenlik.gif",
         "description": "Kendi güvenliğini sağla. Çevreyi kontrol et.",
         "next": 2,
         "prev": 0,
@@ -14,7 +14,7 @@
     },
     "ayb2":{
         "no": 2,
-        "image": "example.gif",
+        "image": "bilinc.gif",
         "description": "Yaralıya ayak tarafından yaklaş ve yavaşça omuzlarından sars ve seslen, bilinci var mı kontrol et. Sana tepki veriyor mu?",
         "next": null,
         "prev": 1,
@@ -27,7 +27,7 @@
     },
     "ayb3":{
         "no": 3,
-        "image": "example.gif",
+        "image": "sikan_giysi.gif",
         "description": "(Etrafında başka biri varsa ona 112'yi aramasını söyle.) Hızlı bir şekilde yaralının boynunu sıkan giysileri gevşet.",
         "next": 4,
         "prev": 2,
@@ -40,7 +40,7 @@
     },
     "ayb4":{
         "no": 4,
-        "image": "example.gif",
+        "image": "agiz.gif",
         "description": "Yaralının ağzının içini kontrol et. Nefes almasını engelleyecek bir şey kaçmışsa çıkar.",
         "next": 5,
         "prev": 3,
@@ -53,7 +53,7 @@
     },
     "ayb5":{
         "no": 5,
-        "image": "example.gif",
+        "image": "nefes_kontrol.gif",
         "description": "Yaralının çenesini hafifçe kaldır, kulağını yaralının ağzına yaklaştır ve aynı zamanda göğsünü 10 saniye izle. Yaralının nefesini hissediyor/duyuyor/görüyor musun? Yaralı nefes alıyor mu?",
         "next": null,
         "prev": 4,
@@ -66,7 +66,7 @@
     },
     "ayb6":{
         "no": 6,
-        "image": "example.gif",
+        "image": "basi_noktasi.gif",
         "description": "(Eğer tek başına isen 112'yi şimdi ara) Birazdan kalp masajı ve suni teneffüse başlayacaksın, Göğüs kafesinin tam ortasına bası uygulayacaksın. Noktayı bul",
         "next": 7,
         "prev": 5,
@@ -79,7 +79,7 @@
     },
     "ayb7":{
         "no": 7,
-        "image": "example.gif",
+        "image": "5cm_asagi.gif",
         "description": "Bulunduğun noktaya bir elinin topğunu yerleştir, diğer elini bu elinin üstüne koy. Parmaklarını kenetle. Bası hızın saniyede iki bası şeklinde olacak ve göğsü 5cm aşağı inecek şekilde yapacaksın. (ŞİMDİ BAŞLAMA, DEVAM ET)",
         "next": 8,
         "prev": 6,
@@ -92,7 +92,7 @@
     },
     "ayb8":{
         "no": 8,
-        "image": "example.gif",
+        "image": "nefes.gif",
         "description": "Nefes verme ise ilk başta çeneyi kaldıracaksın, yaralının burnunu kapatıp normal bir nefes alıp yaralının ağzına nefesi vereceksin. Sonra geri çekilip 1 saniye yaralının nefesi vermesine izin ver. (ŞİMDİ BAŞLAMA, DEVAM ET)",
         "next": 9,
         "prev": 7,
@@ -105,7 +105,7 @@
     },
     "ayb9":{
         "no": 9,
-        "image": "example.gif",
+        "image": "cpr.gif",
         "description": "Ambulans gelene kadar veya hasta nefes almaya başlayana kadar 30 bası - 2 nefes şeklinde gideceksin. Yukardaki resimden yardım alabilirsin. Şimdi başla!",
         "next": 0,
         "prev": 8,
@@ -118,7 +118,7 @@
     },
     "ayb10":{
         "no": 10,
-        "image": "example.gif",
+        "image": "sample.gif",
         "description": "Hastanın bilinci yerinde ve sizinle konuşabiliyorsa, onunla konuşup telkin etmelisiniz. Fiziksel yaralanmalarını kontrol ederken, olay/kazanın işleyisini, Alerjilerini, Aldığı ilaçları, en son ne zaman yemek yediği, hastalıkları hakkında bilgi almalısınız. Ambulans ile konuşurken lazım olacak.",
         "next": 11,
         "prev": 10,
@@ -131,7 +131,7 @@
     },
     "ayb11":{
         "no": 11,
-        "image": "example.gif",
+        "image": "kafa.gif",
         "description": "Yaralının başını ve yüzünü kontrol et. Kulak arkalarına bak. Şekil bozukluğu, şişme, morluk gibi şeyleri kontrol et.",
         "next": 12,
         "prev": 10,
@@ -144,7 +144,7 @@
     },
     "ayb12":{
         "no": 12,
-        "image": "example.gif",
+        "image": "gogus.gif",
         "description": "Omzunu ve göğsündeki deformasyonları kontrol et. Kontrol esnasında yaralının yüzüne bakıp acıya olan tepkisine bak.",
         "next": 13,
         "prev": 11,
@@ -157,7 +157,7 @@
     },
     "ayb13":{
         "no": 13,
-        "image": "example.gif",
+        "image": "omurga.gif",
         "description": "Boynu ve beli piyano hareketi ile kontrol et. Omurgada bir sıkıntı varsa yaralının hareket etmesine izin verme.",
         "next": 14,
         "prev": 12,
@@ -170,7 +170,7 @@
     },
     "ayb14":{
         "no": 14,
-        "image": "example.gif",
+        "image": "karin.gif",
         "description": "Karın bölgesini kontrol edin. Anormal bir sertlik iç kanama belirtisi olabilir. Ardından leğen kemiğini kontrol edin.",
         "next": 15,
         "prev": 13,
@@ -183,8 +183,8 @@
     },
     "ayb15":{
         "no": 15,
-        "image": "example.gif",
-        "description": "Bacak kemiklerini dizi, kol kemiklerini ve dirsekleri kontrol edin. Diz ve dirsekleri aynı anda kontrol edip simetrik olup olmadıklarına bakın. Daha sonra her iki elin bir parmağını bastırın, eğer pembeleşmesi 2 saniyeden uzun sürüyorsa dolaşımda bir sıkıntı var demektir.",
+        "image": "bacak.gif",
+        "description": "Bacak kemiklerini ve dizi kontrol edin. Dizlerin simetrik olup olmadıklarına bakın.",
         "next": 16,
         "prev": 14,
         "multiplechoice": {
@@ -196,8 +196,8 @@
     },
     "ayb16":{
         "no": 16,
-        "image": "example.gif",
-        "description": "Yaralı bilinçsiz veya sayıklar halde değilse ayaklarını ve ellerini itmesini ve çekmesini söyleyin. Yapamaması durumunda sinirlerinde sorun olabilir. Bunu ona yansıtmamaya çalışın, yaralı panik olursa kendisine daha çok zarar verebilir.",
+        "image": "kol.gif",
+        "description": "Kol kemiklerini ve dirsekleri kontrol edin. Dirsekleri aynı anda kontrol edip simetrik olup olmadıklarına bakın. Daha sonra her iki elin bir parmağını bastırın, eğer pembeleşmesi 2 saniyeden uzun sürüyorsa dolaşımda bir sıkıntı var demektir.",
         "next": 17,
         "prev": 15,
         "multiplechoice": {
@@ -209,10 +209,23 @@
     },
     "ayb17":{
         "no": 17,
-        "image": "example.gif",
-        "description": "Şimdi ambulansı arayıp yaralı ile ilgili bulduğun durumları ve yaralıdan öğrenebildiğin alerji, yemek, olay, hastalık, ilaç durumlarını ambulansa aktar.",
-        "next": 0,
+        "image": "it_cek.gif",
+        "description": "Yaralı bilinçsiz veya sayıklar halde değilse ayaklarını ve ellerini itmesini ve çekmesini söyleyin. Yapamaması durumunda sinirlerinde sorun olabilir. Bunu ona yansıtmamaya çalışın, yaralı panik olursa kendisine daha çok zarar verebilir.",
+        "next": 18,
         "prev": 16,
+        "multiplechoice": {
+            "isMultiple": false,
+            "nextNo": null,
+            "nextYes": null
+        }
+
+    },
+    "ayb18":{
+        "no": 18,
+        "image": "ambulans.gif",
+        "description": "Şimdi ambulansı arayıp yaralı ile ilgili bulduğun durumları ve yaralıdan öğrenebildiğin alerji, yemek, olay, hastalık, ilaç durumlarını ambulansa aktar. Ambulans gelene kadar hastanın nefesini ve nabzını kontrol et.",
+        "next": 0,
+        "prev": 17,
         "multiplechoice": {
             "isMultiple": false,
             "nextNo": null,

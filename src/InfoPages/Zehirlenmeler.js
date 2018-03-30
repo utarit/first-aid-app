@@ -18,6 +18,9 @@ class Zehirlenmeler extends React.Component {
                     <CardSection>
                         <Text style={styles.bigTitle}>ZEHİRLENMELER </Text>
                     </CardSection>
+                    <CardSection>
+                        <Text style={styles.smallTitle}>114 Zehir Danışma Hattı </Text>
+                    </CardSection>
                 </Card>
 
                 <Card>
@@ -61,14 +64,12 @@ class Zehirlenmeler extends React.Component {
                         <Text style={styles.smallTitle}>Belirtiler</Text>
 
                         <View style={styles.smallContainer}>
-                            <Text>-	Baş ağrısı, baş dönmesi </Text>
-                            <Text>-	Ezik, çürük, şişlik ve kesikler </Text>
+                            <Text>-	Solunum güçlüğü</Text>
+                            <Text>-	Baş ağrısı </Text>
                             <Text>-	Bulanık görme </Text>
-                            <Text>-	Kulak çınlaması </Text>
-                            <Text>-	Gürültü ve ışığa karşı duyarlılık </Text>
-                            <Text>-	Denge problemleri </Text>
-                            <Text>-	Mide bulantısı </Text>
-                            <Text>-	Yorgunluk, uyuşukluk </Text>
+                            <Text>-	Kulak çınlaması</Text>
+                            <Text>-	Morarma </Text>
+                            <Text>-	Solunum Durması</Text>
                         </View>
                     </CardSection>
 
@@ -76,12 +77,11 @@ class Zehirlenmeler extends React.Component {
                         <Text style={styles.smallTitle}>Müdahale</Text>
                     
                         <View style={styles.smallContainer}>
-                            <Text>-	İkincil değerlendirme (bulduğun pozisyonda yap)</Text>
-                            <Text>-	112 </Text>
-                            <Text>-	Kanama varsa bası yapılır</Text>
-                            <Text>-	Hareket ettirme! </Text>
-                            <Text>-	Telkin </Text>
-                            <Text>-	Devamlı bilinç kontrol (ABC kontrol) </Text>
+                            <Text>-	Öncelikle patlama ve yangınlara karşı olay yeri güvenlik önlemleri alınır. </Text>
+                            <Text>-	Hasta ya da yaralı temiz havaya çıkartılır ya da cam ve kapılar açılarak ortam havalandırılır.  </Text>
+                            <Text>-	Hasta yaralının yaşam bulguları değerlendirilir. Gerekirse temel yaşam desteği sağlanır. </Text>
+                            <Text>-	Tıbbi yardım istenir (112). </Text>
+                            <Text>-	Hasta yaralının bilinci yerinde ise yarı oturur pozisyonda, bilinci kapalı ise koma pozisyonunda bekletilir. </Text>
                         </View>
                     </CardSection>
 
@@ -89,15 +89,16 @@ class Zehirlenmeler extends React.Component {
 
                 <Card>
                     <CardSection>
-                        <Text style={styles.bigTitle}>Çene ve Yüz Kemiği Yaralanmaları</Text>
+                        <Text style={styles.bigTitle}>Deri Yoluyla Zehirlenmeler</Text>
                     </CardSection>
                     <CardSection>
-                        <Text style={styles.smallTitle}>Belirtileri</Text>
+                        <Text style={styles.smallTitle}>Nedenleri</Text>
                     
                         <View style={styles.smallContainer}>
-                            <Text>-	Şekil bozukluğu </Text>
-                            <Text>-	Duyu organlarının zarar görmesi  </Text>
-                            <Text>-	Solunum zorluğu </Text>
+                            <Text>-	Zehirli maddenin vücut ile teması </Text>
+                            <Text>-	Böcek sokmaları</Text>
+                            <Text>-	Zehirli hayvan ısırmaları</Text>
+                            <Text>-	İlaç enjeksiyonu </Text>
                         </View>
                     </CardSection>
 
@@ -105,96 +106,15 @@ class Zehirlenmeler extends React.Component {
                         <Text style={styles.smallTitle}>Müdahale</Text>
                     
                         <View style={styles.smallContainer}>
-                            <Text>-	Acı ve şişlik için soğuk uygulama yapılır</Text>
-                            <Text>-	Kanama varsa temiz bir bezle bası yapılır </Text>
-                            <Text>-	Telkin et ve yüze dokunmasını engelle </Text>
+                            <Text>-	Ellerin zehirle teması önlenir. </Text>
+                            <Text>-	Hasta ya da yaralının yaşam bulguları değerlendirilir. </Text>
+                            <Text>-	Zehir bulaşmış giysiler çıkartılır.  </Text>
+                            <Text>-	Deri sabun ve bol su ile yaklaşık 15-20 dakika yıkanır. </Text>
+                            <Text>-	Tıbbi yardım istenir (112). </Text>
                         </View>
                     </CardSection>
 
                 </Card>
-
-                <Card>
-                    <CardSection>
-                        <Text style={styles.bigTitle}>Burun Yaralanması</Text>
-                    </CardSection>
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Sebepleri</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Basınç </Text>
-                            <Text>-	Sıcaklık  </Text>
-                            <Text>-	Cisim Batması </Text>
-                        </View>
-                    </CardSection>
-
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Müdahale</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Yaralının başı öne doğru eğilir</Text>
-                            <Text>-	Burun kemiği bitişinde burun kanatlarından 5 dakika süreyle sıkılır </Text>
-                            <Text>-	Kan akışı sağlanır.  </Text>
-                            <Text>-	Gerekirse soğuk uygulama yapılabilir (bezle birlikte)</Text>
-                        </View>
-                    </CardSection>
-                </Card>
-
-
-                <Card>
-                    <CardSection>
-                        <Text style={styles.bigTitle}>Kulak Yaralanması</Text>
-                    </CardSection>
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Sebepleri</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Darbe </Text>
-                            <Text>-	Beyinde Hasar  </Text>
-                            <Text>-	Hastalık </Text>
-                        </View>
-                    </CardSection>
-
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Müdahale</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Kanayan kulağın üzerine bastırmadan temiz bir kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla. </Text>
-                        </View>
-                    </CardSection>
-                </Card>
-
-
-                <Card>
-                    <CardSection>
-                        <Text style={styles.bigTitle}>Omurga Yaralanması</Text>
-                    </CardSection>
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Belirtiler</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Sırtta ağrı </Text>
-                            <Text>-	Hareket zorluğu </Text>
-                            <Text>-	Hissizlik </Text>
-                            <Text>-	Omurgada şekil bozukluğu </Text>
-                            <Text>-	İdrar kaçırma durumu </Text>
-                        </View>
-                    </CardSection>
-
-                    <CardSection>
-                        <Text style={styles.smallTitle}>Müdahale</Text>
-                    
-                        <View style={styles.smallContainer}>
-                            <Text>-	Kaza mekanizması kontrol edilir, çevre güvenliği alınır. </Text>
-                            <Text>-	İkincil değerlendirme (ellerini sıkamıyor, ayaklarını çekemiyorsa şüphelen)</Text>
-                            <Text>-	Acil durumlarda arabadan çıkartılması gerekiyorsa rentek manevrası ile) </Text>
-                            <Text>-	Mümkün olduğunca hareket ettirme, varsa boyunluk tak </Text>
-                            <Text>-	Hasta / yaralıyı yalnız bırakma</Text>
-                            <Text>-	Vücut ısısını dengede tutmaya çalış ve telkin et </Text>
-                        </View>
-                    </CardSection>
-                </Card>
-
-
             </ScrollView>
         )
     }

@@ -23,7 +23,7 @@ export default class LoginScreen extends React.Component {
                 <View></View>
                 <View style={{alignItems: 'center'}}>
                     <Image style={styles.imageStyle} source={require('./images/ocit_logo.png')} />
-                <Text style={styles.textStyle}> First Aid App v.1.0.1 Beta </Text>
+                <Text style={styles.textStyle}> First Aid App v.1.0.2 Beta </Text>
                 </View>
                 <View style={{alignItems: 'center'}}>
                     <Text style={styles.infoStyle}>Bu uygulama bilgi amaçlı olup olabilecek olumsuzluklar kullanıcının sorumluluğundadır.</Text>
@@ -52,8 +52,8 @@ const styles = {
     },
 
     infoStyle: {
-        fontSize: 13,
+        fontSize: 14,
         textAlign: 'center',
-        marginBottom: 2,
+        marginBottom: 3,
     }
   }

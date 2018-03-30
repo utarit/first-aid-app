@@ -1,7 +1,7 @@
 import React from 'react'
-import {Text, View, ScrollView } from 'react-native'
+import {Text, View, ScrollView, TouchableOpacity } from 'react-native'
 
-import { AYBButton, Card, CardSection, Button } from './common'
+import { AYBButton, Card, CardSection } from './common'
 
 
 
@@ -11,6 +11,29 @@ class HomeScreen extends React.Component {
         title: 'İLK YARDIM ANA SAYFA',
         headerLeft: null,
         headerTitleStyle: {alignSelf: 'center'}
+      }
+
+      listRender(){
+        const {navigate} = this.props.navigation;
+
+          const listNames = [
+              {link: 'Hayvanlar', name: 'Hayvan Sokmaları ve Isırmaları' },
+              {link: 'KafaOmurga', name: 'Kafa ve Omurga Yaralanmaları' },
+              {link: 'Zehirlenmeler', name: 'Zehirlenmeler' },
+              {link: 'Yaniklar', name: 'Yanıklar' },
+              {link: 'SicakSoguk', name: 'Sıcak ve Soğuk Çarpması' },
+          ]
+
+          return listNames.map((item)=>{
+              return(
+                <CardSection key ={item.link}>
+                    <TouchableOpacity onPress={()=>navigate(item.link)}>
+                        <Text style={styles.listEntry}>{item.name}</Text>
+                    </TouchableOpacity>
+                </CardSection>
+              )
+            
+          })
       }
 
     render() {
@@ -23,22 +46,20 @@ class HomeScreen extends React.Component {
                 </AYBButton>
 
                 <ScrollView>
-                    <Button onPress={()=>navigate('KafaOmurga')}>
-                        <Text>Kafa ve Omurga Yaralanmaları</Text>
-                    </Button>
-
-                    <Button onPress={()=>navigate('Hayvanlar')}>
-                        <Text>Hayvan Sokmaları ve Isırmaları</Text>
-                    </Button>
-
-                    <Button onPress={()=>navigate('Zehirlenmeler')}>
-                        <Text>Zehirlenmeler</Text>
-                    </Button>
+                    <Card>
+                        {this.listRender()}
+                    </Card>
             </ScrollView>
             </View>
         )
     }
     
+}
+
+const styles = {
+    listEntry: {
+        fontSize: 16
+    }
 }
 
 export default HomeScreen
