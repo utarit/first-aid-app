@@ -90,8 +90,10 @@ class AYB extends React.Component {
     problemsListRender(){
         const {params} = this.props.navigation.state;
         const problemsArray = params.problems;
-
-        return problemsArray.map((problem, index) => <Text style={{color: 'red', fontSize: 12}} key={index}> {problem} </Text>)
+        if(problemsArray == []) {
+            return <Text style={{color: '#ff2807', fontSize: 13}} key={index}> Hiç sorun görülmüyor. </Text>
+        }
+        return problemsArray.map((problem, index) => <Text style={{color: '#ff2807', fontSize: 13}} key={index}> #{problem} </Text>)
     }
 
     textRender(){

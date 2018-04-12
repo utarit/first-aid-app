@@ -21,7 +21,7 @@ const styles = {
   },
   buttonStyle: {
     alignSelf: 'stretch',
-    backgroundColor: '#f42e0c',
+    backgroundColor: '#ce1f04',
     marginTop: 50,
     height: 200,
     justifyContent: 'center',
