@@ -190,7 +190,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                         "- Acı ve şişlik için soğuk uygulama yapılır ",
+                            "- Acı ve şişlik için soğuk uygulama yapılır ",
                              "- Kanama varsa temiz bir bezle bası yapılır  ",
                              "- Telkin et ve yüze dokunmasını engelle  "
                             ]
@@ -203,7 +203,7 @@
                 "content":[ {
                     "small_title": "Sebepleri",
                     "text": [
-                         "- Basınç  ",
+                            "- Basınç  ",
                              "- Sıcaklık   ",
                              "- Cisim Batması  "
                             ]
@@ -211,7 +211,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                         "- Yaralının başı öne doğru eğilir ",
+                            "- Yaralının başı öne doğru eğilir ",
                              "- Burun kemiği bitişinde burun kanatlarından 5 dakika süreyle sıkılır  ",
                              "- Kan akışı sağlanır.   ",
                              "- Gerekirse soğuk uygulama yapılabilir (bezle birlikte) "
@@ -225,7 +225,7 @@
                 "content":[ {
                     "small_title": "Sebepleri",
                     "text": [
-                         "- Darbe  ",
+                            "- Darbe  ",
                              "- Beyinde Hasar   ",
                              "- Hastalık  "
                             ]
@@ -233,7 +233,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                         "- Kanayan kulağın üzerine bastırmadan temiz bir kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla.  "
+                            "- Kanayan kulağın üzerine bastırmadan temiz bir kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla.  "
                             ]
                             }
                         ]
@@ -244,7 +244,7 @@
                 "content":[ {
                     "small_title": "Belirtiler",
                     "text": [
-                         "- Sırtta ağrı  ",
+                            "- Sırtta ağrı  ",
                              "- Hareket zorluğu  ",
                              "- Hissizlik  ",
                              "- Omurgada şekil bozukluğu  ",
@@ -281,7 +281,7 @@
                 "content":[ {
                     "small_title": "Belirtileri",
                     "text": [
-                        "- Bulantı ",
+                            "- Bulantı ",
                             "- Kusma ",
                             "- Karın ağrısı ",
                             "- Şiddetli ishal "
@@ -316,7 +316,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                        "- Öncelikle patlama ve yangınlara karşı olay yeri güvenlik önlemleri alınır.  ",
+                            "- Öncelikle patlama ve yangınlara karşı olay yeri güvenlik önlemleri alınır.  ",
                             "- Hasta ya da yaralı temiz havaya çıkartılır ya da cam ve kapılar açılarak ortam havalandırılır.   ",
                             "- Hasta yaralının yaşam bulguları değerlendirilir. Gerekirse temel yaşam desteği sağlanır.  ",
                             "- Tıbbi yardım istenir (112).  ",
@@ -331,7 +331,7 @@
                 "content":[ {
                     "small_title": "Sebepleri",
                     "text": [
-                        "- Zehirli maddenin vücut ile teması  ",
+                            "- Zehirli maddenin vücut ile teması  ",
                             "- Böcek sokmaları ",
                             "- Zehirli hayvan ısırmaları ",
                             "- İlaç enjeksiyonu  "
@@ -356,12 +356,26 @@
         "title": "YANIKLAR",
         "Cards": [
             {
+                "title": "Müdahale",
+                "image": "",
+                "content":[ {
+                    "small_title": "",
+                    "text": [
+                            "- ACİLEN SAĞLIK KURULUŞUNA GİTMELİ",
+                            "- Steril bez ile kapat (yaranın hava ile teması kesilsin). ",
+                            "- Hasta kendindeyse su içebilir.",
+                            "- Şoka karşı önlem al. "
+                            ]
+                            }
+                        ]
+            },
+            {
                 "title": "1. Derece Yanıklar",
                 "image": "yanik1",
                 "content":[ {
                     "small_title": "",
                     "text": [
-                        "- Derinin sadece en üst tabakası zedelenir.",
+                            "- Derinin sadece en üst tabakası zedelenir.",
                             "- Kızarıklık, gerginlik ve ağrı görülür. ",
                             "- Müdahale: En az 10 dakika soğuk suya tutun. Merhem de kullanılabilir. "
                             ]
@@ -374,7 +388,7 @@
                 "content":[ {
                     "small_title": "",
                     "text": [
-                        "- Derinin üst ve değişen oranlarda alt kısmı da etkilenir. ",
+                            "- Derinin üst ve değişen oranlarda alt kısmı da etkilenir. ",
                             "- Kızarıklık, ağrı ve su toplaması görülür. ",
                             "- Müdahale: Suya tut. Kuru, yapışmaz, temiz steril bir bezle sar. Merhem kullanma. Bülleri (su kabarcıkları) patlatma. "
                             ]
@@ -387,23 +401,9 @@
                 "content":[ {
                     "small_title": "",
                     "text": [
-                        "- Deri altı dokulara hatta kemiğe kadar ulaşır. ",
+                            "- Deri altı dokulara hatta kemiğe kadar ulaşır. ",
                             "- Deri kuru olur, renk değiştirir. ",
                             "- Sinir uçları ve kan damarları zedelenir, his kaybı oluşur. "
-                            ]
-                            }
-                        ]
-            },
-            {
-                "title": "Müdahale",
-                "image": "",
-                "content":[ {
-                    "small_title": "",
-                    "text": [
-                        "- ACİLEN SAĞLIK KURULUŞUNA GİTMELİ",
-                            "- - Steril bez ile kapat (yaranın hava ile teması kesilsin). ",
-                            "- - Hasta kendindeyse su içebilir.",
-                            "- - Şoka karşı önlem al. "
                             ]
                             }
                         ]
@@ -414,7 +414,7 @@
                 "content":[ {
                     "small_title": "",
                     "text": [
-                        "- Toz halinde ise hemen bir bez ya da fırça yardımıyla maddeyi vücuttan uzaklaştır sonra yıka.  ",
+                            "- Toz halinde ise hemen bir bez ya da fırça yardımıyla maddeyi vücuttan uzaklaştır sonra yıka.  ",
                             "- Sıvı halinde ise kıyafetleri çıkar ve basınçlı su ile yıka. ",
                             "- Göz etkilendiyse acilen zarar gören göz aşağıda kalacak şekilde akan musluğun altında temizle."
                             ]
@@ -462,7 +462,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                        "- Hasta ya da yaralı ılık bir ortama alınarak soğukla teması kesilir (aniden çok sıcak ortama sokulmamalıdır).  ",
+                            "- Hasta ya da yaralı ılık bir ortama alınarak soğukla teması kesilir (aniden çok sıcak ortama sokulmamalıdır).  ",
                             "- Hasta ya da yaralı sakinleştirilir ve hareket ettirilmez. ",
                             "- Hasta ya da yaralıya kuru giysiler giydirilir, bilinci yerinde ise sıcak içecekler verilir. ",
                             "- Vücutta oluşan içi su dolu kabarcıklar asla patlatılmaz. ",
@@ -481,7 +481,7 @@
                 "content":[ {
                     "small_title": "Belirtileri",
                     "text": [
-                        "- Adale krampları",
+                            "- Adale krampları",
                             "- Güçsüzlük, yorgunluk ",
                             "- Baş dönmesi, davranış bozukluğu ",
                             "- Solgun ve sıcak deri ",
@@ -508,7 +508,7 @@
                 "content":[ {
                     "small_title": "Sebepleri",
                     "text": [
-                        "- Zehirli maddenin vücut ile teması  ",
+                            "- Zehirli maddenin vücut ile teması  ",
                             "- Böcek sokmaları ",
                             "- Zehirli hayvan ısırmaları ",
                             "- İlaç enjeksiyonu  "

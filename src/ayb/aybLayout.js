@@ -91,7 +91,7 @@ class AYB extends React.Component {
         const {params} = this.props.navigation.state;
         const problemsArray = params.problems;
         if(problemsArray == []) {
-            return <Text style={{color: '#ff2807', fontSize: 13}} key={index}> Hiç sorun görülmüyor. </Text>
+            return <Text style={{color: '#ff2807', fontSize: 13}} key={index}> Hiç sorun görünmüyor. </Text>
         }
         return problemsArray.map((problem, index) => <Text style={{color: '#ff2807', fontSize: 13}} key={index}> #{problem} </Text>)
     }
