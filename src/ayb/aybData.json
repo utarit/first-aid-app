@@ -132,6 +132,7 @@
     "ayb11":{
         "no": 11,
         "image": "kafa.gif",
+        "heading": "Kafa & Yüz",
         "description": "Yaralının başını ve yüzünü kontrol et. Kulak arkalarına bak. Şekil bozukluğu, şişme, morluk gibi şeyleri kontrol et.",
         "next": 12,
         "prev": 10,
@@ -145,6 +146,7 @@
     "ayb12":{
         "no": 12,
         "image": "gogus.gif",
+        "heading": "Göğüs",
         "description": "Omzunu ve göğsündeki deformasyonları kontrol et. Kontrol esnasında yaralının yüzüne bakıp acıya olan tepkisine bak.",
         "next": 13,
         "prev": 11,
@@ -158,6 +160,7 @@
     "ayb13":{
         "no": 13,
         "image": "omurga.gif",
+        "heading": "Omurga & Boyun",
         "description": "Boynu ve beli piyano hareketi ile kontrol et. Omurgada bir sıkıntı varsa yaralının hareket etmesine izin verme.",
         "next": 14,
         "prev": 12,
@@ -171,6 +174,7 @@
     "ayb14":{
         "no": 14,
         "image": "karin.gif",
+        "heading": "Karın & Pelvis",
         "description": "Karın bölgesini kontrol edin. Anormal bir sertlik iç kanama belirtisi olabilir. Ardından leğen kemiğini kontrol edin.",
         "next": 15,
         "prev": 13,
@@ -184,6 +188,7 @@
     "ayb15":{
         "no": 15,
         "image": "bacak.gif",
+        "heading": "Bacaklar",
         "description": "Bacak kemiklerini ve dizi kontrol edin. Dizlerin simetrik olup olmadıklarına bakın.",
         "next": 16,
         "prev": 14,
@@ -197,6 +202,7 @@
     "ayb16":{
         "no": 16,
         "image": "kol.gif",
+        "heading": "Kollar",
         "description": "Kol kemiklerini ve dirsekleri kontrol edin. Dirsekleri aynı anda kontrol edip simetrik olup olmadıklarına bakın. Daha sonra her iki elin bir parmağını bastırın, eğer pembeleşmesi 2 saniyeden uzun sürüyorsa dolaşımda bir sıkıntı var demektir.",
         "next": 17,
         "prev": 15,
@@ -210,6 +216,7 @@
     "ayb17":{
         "no": 17,
         "image": "it_cek.gif",
+        "heading": "Hareket & Dolaşım",
         "description": "Yaralı bilinçsiz veya sayıklar halde değilse ayaklarını ve ellerini itmesini ve çekmesini söyleyin. Yapamaması durumunda sinirlerinde sorun olabilir. Bunu ona yansıtmamaya çalışın, yaralı panik olursa kendisine daha çok zarar verebilir.",
         "next": 18,
         "prev": 16,

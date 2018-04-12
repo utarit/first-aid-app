@@ -7,6 +7,7 @@ import { AYBButton, Card, CardSection } from './common'
 
 class HomeScreen extends React.Component {
 
+
     static navigationOptions = {
         title: 'İLK YARDIM ANA SAYFA',
         headerLeft: null,
@@ -36,12 +37,18 @@ class HomeScreen extends React.Component {
           })
       }
 
+      aybRender(){
+        const {navigate} = this.props.navigation;
+        let problems = []
+        navigate('AYB', {id: 1, problems: []})
+      }
+
     render() {
         const {navigate} = this.props.navigation;
 
         return (
             <View>
-                <AYBButton onPress={() => navigate('AYB', {id: 1})}>
+                <AYBButton onPress={()=> navigate('AYB', {id: 1})}>
                     ACİL BUTON
                 </AYBButton>
 

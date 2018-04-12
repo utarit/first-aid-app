@@ -38,6 +38,11 @@ class AYB extends React.Component {
         }
     }
 
+    componentDidMount(){
+        this.setState({problems: this.props.navigation.state.params.problems})
+        console.log("PROPS: ", this.props.navigation.state.params);
+    }
+
     renderButton() {
         const {navigate} = this.props.navigation
         const {params} = this.props.navigation.state
@@ -47,8 +52,8 @@ class AYB extends React.Component {
         if(content.multiplechoice.isMultiple) {
             return (
                 <View style={styles.yesNoButtonContainer}>
-                    <Button buttonColor='red' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextNo})}> HAYIR </Button>
-                    <Button buttonColor='green' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextYes})}> EVET </Button>
+                    <Button buttonColor='red' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextNo, problems: this.state.problems ? this.state.problems : []})}> HAYIR </Button>
+                    <Button buttonColor='green' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextYes, problems: this.state.problems ? this.state.problems : []})}> EVET </Button>
                 </View>
             )
         } else if (content.next === 0) {
@@ -57,23 +62,76 @@ class AYB extends React.Component {
                     <Button buttonColor='black' onPress={()=> navigate('Home')}>Ana Sayfa</Button>
                 </View>
                 )
-        }
-
-        return (
+        } else if (content.no >= 11 && content.no <= 17) {
+            return(
+                <View style={styles.yesNoButtonContainer}>
+                    <Button buttonColor='red' flexButton="on" onPress={()=> {
+                        const array = this.state.problems
+                        array.push(content.heading)
+                        return navigate('AYB', {id: content.next, problems: array})
+                    } }> SORUN VAR </Button>
+                    <Button buttonColor='green' flexButton="on" onPress={()=> navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []})}> SORUN YOK </Button>
+                </View>
+            )
+            
+        } else {
+            return (
                 <View>
-                    <Button buttonColor='#007aff' onPress={()=> navigate('AYB', {id: content.next})}>
+                    <Button buttonColor='#007aff' onPress={()=> navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []})}>
                         Devam
                     </Button>
                 </View>
-        )
+            )
+        }
+
+        
+    }
+
+    problemsListRender(){
+        const {params} = this.props.navigation.state;
+        const problemsArray = params.problems;
+
+        return problemsArray.map((problem, index) => <Text style={{color: 'red', fontSize: 12}} key={index}> {problem} </Text>)
+    }
+
+    textRender(){
+        const {params} = this.props.navigation.state
+        const content = aybData["ayb" + params.id]
+
+        if(content.no == 18) {
+
+            return(
+                <Card>
+                    <View style={styles.lastPageTextStyle}>
+                        <View style={{flex: 1, padding: 5}}>
+                            {this.problemsListRender()}
+                        </View>
+                        <View style={{flex: 2, padding: 5, borderLeftWidth: 1, borderLeftColor: 'gray'}}>
+                            <Text>
+                            {content.description}
+                            </Text>
+                        </View>
+                    </View>
+                </Card>
+            )
+
+        } else {
+            return (
+                <Card>
+                    <View style={styles.textBoxStyle}>
+                        <Text style={styles.textStyle}>
+                        {content.description}
+                        </Text>
+                    </View>
+                </Card>
+            )
+        }
     }
 
     render() {
 
         const {params} = this.props.navigation.state
-
         const content = aybData["ayb" + params.id]
-
         const imageLink = './' + content.image
 
         return (
@@ -82,14 +140,8 @@ class AYB extends React.Component {
                     <Image style={{height: 240, width: '100%'}} source={this.state.gifs["gif" + params.id]} />
                 </Card>
 
+                {this.textRender()}
                 
-                <Card>
-                    <View style={styles.textBoxStyle}>
-                        <Text style={styles.textStyle}>
-                        {content.description}
-                        </Text>
-                    </View>
-                </Card>
 
                 {this.renderButton()}
                 
@@ -118,6 +170,10 @@ const styles = {
         flex: 1,
         justifyContent: 'space-around',
         flexDirection: 'column',
+    },
+    lastPageTextStyle: {
+        display: 'flex',
+        flexDirection: 'row'
     }
 }
 
