@@ -34,13 +34,13 @@ class AYB extends React.Component {
                 "gif16": require("./gifs/kol.gif"),
                 "gif17": require("./gifs/it_cek.gif"),
                 "gif18": require("./gifs/ambulans.gif")
-            }
+            },
+            loading: true
         }
     }
 
     componentDidMount(){
-        this.setState({problems: this.props.navigation.state.params.problems})
-        console.log("PROPS: ", this.props.navigation.state.params);
+        this.setState({problems: this.props.navigation.state.params.problems, loading: false})
     }
 
     renderButton() {
@@ -52,8 +52,12 @@ class AYB extends React.Component {
         if(content.multiplechoice.isMultiple) {
             return (
                 <View style={styles.yesNoButtonContainer}>
-                    <Button buttonColor='red' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextNo, problems: this.state.problems ? this.state.problems : []})}> HAYIR </Button>
-                    <Button buttonColor='green' flexButton="on" onPress={()=> navigate('AYB', {id: content.multiplechoice.nextYes, problems: this.state.problems ? this.state.problems : []})}> EVET </Button>
+                    <Button buttonColor='red' flexButton="on" onPress={()=> {
+                        this.setState({loading: true})
+                        return navigate('AYB', {id: content.multiplechoice.nextNo, problems: this.state.problems ? this.state.problems : []})}}> HAYIR </Button>
+                    <Button buttonColor='green' flexButton="on" onPress={()=> {
+                        this.setState({loading: true})
+                        return navigate('AYB', {id: content.multiplechoice.nextYes, problems: this.state.problems ? this.state.problems : []})}}> EVET </Button>
                 </View>
             )
         } else if (content.next === 0) {
@@ -68,16 +72,22 @@ class AYB extends React.Component {
                     <Button buttonColor='red' flexButton="on" onPress={()=> {
                         const array = this.state.problems
                         array.push(content.heading)
+                        this.setState({loading: true})
                         return navigate('AYB', {id: content.next, problems: array})
                     } }> SORUN VAR </Button>
-                    <Button buttonColor='green' flexButton="on" onPress={()=> navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []})}> SORUN YOK </Button>
+                    <Button buttonColor='green' flexButton="on" onPress={()=> {
+                        this.setState({loading: true})
+                        return navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []});
+                    } }> SORUN YOK </Button>
                 </View>
             )
             
         } else {
             return (
                 <View>
-                    <Button buttonColor='#007aff' onPress={()=> navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []})}>
+                    <Button buttonColor='#007aff' onPress={()=> {
+                        this.setState({loading: true})
+                        return navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []})}}>
                         Devam
                     </Button>
                 </View>
@@ -145,7 +155,7 @@ class AYB extends React.Component {
                 {this.textRender()}
                 
 
-                {this.renderButton()}
+                {!this.state.loading ? this.renderButton() : <Text></Text>}
                 
             </View>
         )
