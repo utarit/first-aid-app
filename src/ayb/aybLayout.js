@@ -1,13 +1,25 @@
 import React from 'react'
-import {View,Text, Image} from 'react-native'
+import {View,Text, Image, TouchableOpacity} from 'react-native'
 import { Card, CardSection, Button } from '../common'
 
 import aybData from './aybData.json';
 
+const HomeButton = (props) => {
+    return(
+            <TouchableOpacity onPress={props.onPress}>
+                <Image source={require("../../assets/home.png")} style={{height: 24, width: 24, marginRight: 15}}/> 
+            </TouchableOpacity>
+    )
+}
+
+
 class AYB extends React.Component {
 
-    static navigationOptions = {
-        title: "ACİL DURUM",
+    static navigationOptions = ({navigation}) => {
+        return {
+            title: "ACİL DURUM",
+            headerRight: <HomeButton onPress={()=> navigation.navigate('Home')}> Anasayfa </HomeButton>
+        }
         
     }
 
@@ -34,14 +46,14 @@ class AYB extends React.Component {
                 "gif16": require("./gifs/kol.gif"),
                 "gif17": require("./gifs/it_cek.gif"),
                 "gif18": require("./gifs/ambulans.gif")
-            },
-            loading: true
+            }
         }
     }
 
     componentDidMount(){
-        this.setState({problems: this.props.navigation.state.params.problems, loading: false})
+        this.setState({problems: this.props.navigation.state.params.problems })
     }
+
 
     renderButton() {
         const {navigate} = this.props.navigation
@@ -154,8 +166,7 @@ class AYB extends React.Component {
 
                 {this.textRender()}
                 
-
-                {!this.state.loading ? this.renderButton() : <Text></Text>}
+                {this.renderButton()}
                 
             </View>
         )
