@@ -8,7 +8,6 @@ import AYB from './src/ayb/aybLayout'
 import InfoLayout from './src/InfoPages/infoPageLayout'
 
 
-
 const FirstAidApp = StackNavigator({
   Home: { screen: HomeScreen },
   AYB: { screen: AYB},
