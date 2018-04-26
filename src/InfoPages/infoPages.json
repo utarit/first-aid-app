@@ -12,7 +12,7 @@
                         "-Sokulan vücut bölgesi soğuk su ile yıkanır.",
                         "-Sokulan bölgeye soğuk uygulama yapılır. ",
                         "-Eğer sokma ağızdan olmuş ve solunum güçlüğü söz konusu ise tıbbi yarıma ulaşıncaya kadar hasta ya da yaralının buz emmesi ya da soğuk su içmesi sağlanır. ",
-                        "-Alerji durumu olanlarda derhal tıbbi yarım istenir. "
+                        "-Alerji durumu olanlarda derhal tıbbi yardım istenir. "
                     ]
                 }]
             },
@@ -24,7 +24,7 @@
                     "text": [
                         "- Hasta ya da yaralı yatar pozisyonda tutulur ve sakinleştirilmeye çalışılır. ",
                         "- Hasta ya da yaralının yaşam bulguları değerlendirilir. ",
-                        "- Zorunlu olmadıkça hasta ya da yaralı (özellikle sokma bölgesi) ya da sokulan organ hareket ettirilmez. ",
+                        "- Zorunlu olmadıkça sokulan bölge (hatta organ) hareket ettirilmez. ",
                         "- Yaraya soğuk uygulama yapılır. ",
                         "- Yara üzerinde hiçbir girişimde (kesme, çizme, kan emme vs.) bulunulmaz. ",
                         "- Sokulan yerin üst tarafına dolaşımı engellemeyecek şekilde elastik bandaj uygulanır. (Kesinlikle turnike uygulanmaz). ",
@@ -233,7 +233,7 @@
                             {
                     "small_title": "Müdahale",
                     "text": [
-                            "- Kanayan kulağın üzerine bastırmadan temiz bir kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla.  "
+                            "- Kanayan kulağın üzerine bastırmadan temiz bir bez kapatıp hastayı kanayan tarafa doğru yatır, kanın akmasını sağla.  "
                             ]
                             }
                         ]
@@ -444,7 +444,7 @@
                 "content":[ {
                     "small_title": "1. Derece Donma",
                     "text": [
-                        "1. Derece Donma: Deride solukluk, soğukluk, uyuşukluk ve sonrasında kızarıklık oluşur. "
+                        "Deride solukluk, soğukluk, uyuşukluk ve sonrasında kızarıklık oluşur. "
                             ]
                             },
                             {
@@ -501,32 +501,7 @@
                             ]
                             }
                         ]
-            },
-            {
-                "title": "Deri Yoluyla Zehirlenmeler",
-                "image": "",
-                "content":[ {
-                    "small_title": "Sebepleri",
-                    "text": [
-                            "- Zehirli maddenin vücut ile teması  ",
-                            "- Böcek sokmaları ",
-                            "- Zehirli hayvan ısırmaları ",
-                            "- İlaç enjeksiyonu  "
-                            ]
-                            },
-                            {
-                    "small_title": "Müdahale",
-                    "text": [
-                        "- Ellerin zehirle teması önlenir.  ",
-                        "- Hasta ya da yaralının yaşam bulguları değerlendirilir.  ",
-                        "- Zehir bulaşmış giysiler çıkartılır.   ",
-                        "- Deri sabun ve bol su ile yaklaşık 15-20 dakika yıkanır.  ",
-                        "- Tıbbi yardım istenir (112).  "
-                            ]
-                            }
-                        ]
             }
-            
         ]
     }
 }

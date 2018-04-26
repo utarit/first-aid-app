@@ -19,7 +19,6 @@ export default class Credits extends React.Component {
     }
     
     creditsRender() {
-      console.log('CREDİTS')
       const people = [
         {title: 'Acil Durum Butonu', people: ['Dilara BAŞLİ', 'Burcu KÜNDÜM', 'Cantürk YILMAZ']},
         {title: 'Bilgilendirme Sayfaları', people: ['Özge ÇETİNER']},
@@ -46,15 +45,16 @@ export default class Credits extends React.Component {
 
             <View>
               <View style={styles.container}>
+                <Text style={styles.title}>ODTÜ Cankurtarma ve İlkyardım Topluluğu</Text>
+                <Text style={styles.textStyle}>1992'den beri ilk yardım ve can kurtarma konusunda eğitim veren bir ODTÜ spor topluluğudur. </Text>
+              </View>
+
+              <View style={styles.container}>
                 <Text style={styles.title}> Bağış </Text>
                 <Text style={styles.textStyle}> Uygulamanın geliştirilmesinde katkıda bulunabilirsiniz.</Text>
                 <Text style={styles.textStyle}> IBAN: 24 0011 1000 0000 0059 9215 35 </Text>
               </View>
 
-              <View style={styles.container}>
-                <Text style={styles.title}> İletişim </Text>
-                <Text style={styles.textStyle}> Şikayet, görüş ve önerileriniz için mertakca74@gmail.com adresinden ulaşabilirsiniz.</Text>
-              </View>
             </View>
           </View>
       );

@@ -132,7 +132,7 @@
     "ayb11":{
         "no": 11,
         "image": "kafa.gif",
-        "heading": "Kafa & Yüz",
+        "heading": "Kafa ve Yüz",
         "description": "Yaralının başını ve yüzünü kontrol et. Kulak arkalarına bak. Şekil bozukluğu, şişme, morluk gibi şeyleri kontrol et.",
         "next": 12,
         "prev": 10,
@@ -160,7 +160,7 @@
     "ayb13":{
         "no": 13,
         "image": "omurga.gif",
-        "heading": "Omurga & Boyun",
+        "heading": "Omurga ve Boyun",
         "description": "Boynu ve beli piyano hareketi ile kontrol et. Omurgada bir sıkıntı varsa yaralının hareket etmesine izin verme.",
         "next": 14,
         "prev": 12,
@@ -174,7 +174,7 @@
     "ayb14":{
         "no": 14,
         "image": "karin.gif",
-        "heading": "Karın & Pelvis",
+        "heading": "Karın ve Kalça",
         "description": "Karın bölgesini kontrol edin. Anormal bir sertlik iç kanama belirtisi olabilir. Ardından leğen kemiğini kontrol edin.",
         "next": 15,
         "prev": 13,
@@ -216,7 +216,7 @@
     "ayb17":{
         "no": 17,
         "image": "it_cek.gif",
-        "heading": "Hareket & Dolaşım",
+        "heading": "Hareket ve Dolaşım",
         "description": "Yaralı bilinçsiz veya sayıklar halde değilse ayaklarını ve ellerini itmesini ve çekmesini söyleyin. Yapamaması durumunda sinirlerinde sorun olabilir. Bunu ona yansıtmamaya çalışın, yaralı panik olursa kendisine daha çok zarar verebilir.",
         "next": 18,
         "prev": 16,

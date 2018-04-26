@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text, View, ScrollView, TouchableOpacity, Image } from 'react-native'
+import {Text, View, ScrollView, TouchableOpacity, Image, BackHandler, Alert } from 'react-native'
 
 import { AYBButton, Card, CardSection, Button, Hmbr} from './common'
 import { DrawerNavigator } from 'react-navigation'
@@ -23,8 +23,27 @@ class HomeScreen1 extends React.Component {
           }
     }
 
-
-
+    componentWillMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.backPressed);
+     }
+     
+     componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.backPressed);}
+     
+     backPressed = () => {
+     
+         Alert.alert(
+           'Çıkış',
+           'Uygulamadan çıkmak istiyor musunuz?',
+           [
+             {text: 'Hayır', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+             {text: 'Evet', onPress: () => BackHandler.exitApp()},
+           ],
+           { cancelable: false })
+     
+     return true;
+     
+     }
 
       listRender(){
         const {navigate} = this.props.navigation;
@@ -49,11 +68,7 @@ class HomeScreen1 extends React.Component {
           })
       }
 
-      aybRender(){
-        const {navigate} = this.props.navigation;
-        let problems = []
-        navigate('AYB', {id: 1, problems: []})
-      }
+
 
     render() {
         const {navigate} = this.props.navigation;
@@ -63,7 +78,7 @@ class HomeScreen1 extends React.Component {
                 <AYBButton onPress={()=> navigate('AYB', {id: 1})}>
                     ACİL BUTON
                 </AYBButton>
-
+                
 
                 <ScrollView>
                     <Card>

@@ -82,12 +82,18 @@ class AYB extends React.Component {
             return(
                 <View style={styles.yesNoButtonContainer}>
                     <Button buttonColor='red' flexButton="on" onPress={()=> {
-                        const array = this.state.problems
-                        array.push(content.heading)
+                        const array = this.state.problems;
+
+                        if(!array.includes(content.heading))
+                            array.push(content.heading);
+
                         this.setState({loading: true})
                         return navigate('AYB', {id: content.next, problems: array})
                     } }> SORUN VAR </Button>
                     <Button buttonColor='green' flexButton="on" onPress={()=> {
+                        const array = this.state.problems;
+                        const index = array.indexOf(content.heading);
+                        if(index > -1)  array.splice(index, 1);
                         this.setState({loading: true})
                         return navigate('AYB', {id: content.next, problems: this.state.problems ? this.state.problems : []});
                     } }> SORUN YOK </Button>
@@ -112,10 +118,10 @@ class AYB extends React.Component {
     problemsListRender(){
         const {params} = this.props.navigation.state;
         const problemsArray = params.problems;
-        if(problemsArray == []) {
-            return <Text style={{color: '#ff2807', fontSize: 13}} key={index}> Hiç sorun görünmüyor. </Text>
+        if(problemsArray.length == 0) {
+            return <Text style={{color: '#ff2807', fontSize: 13}}> Hiç sorun görünmüyor. </Text>
         }
-        return problemsArray.map((problem, index) => <Text style={{color: '#ff2807', fontSize: 13}} key={index}> #{problem} </Text>)
+        return problemsArray.map((problem, index) => <Text style={{color: '#ff2807', fontSize: 13}} key={index}>* {problem} </Text>)
     }
 
     textRender(){

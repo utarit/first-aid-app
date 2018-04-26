@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "firstaid-app",
+    "name": "OCİT İLK YARDIM",
     "description": "The project that saves people.",
     "slug": "firstaid-app",
     "privacy": "public",
     "sdkVersion": "25.0.0",
-    "platforms": ["ios", "android"],
-    "version": "1.0.1",
+    "platforms": ["android"],
+    "version": "1.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,7 +18,10 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.mertakca.ocitfirstaid"
+      "package": "com.mertakca.ocitfirstaid",
+      "versionCode": 3,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mertakca.ocitfirstaid",
+      "permissions" : []
     }
   }
 }
